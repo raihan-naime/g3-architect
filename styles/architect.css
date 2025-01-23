@@ -7,7 +7,13 @@
     font-family: "Open Sans", serif;
 }
 .btn-primary{
-
+    border-radius: 8px;
+    color: #fff;
+    background: #ff900e;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -55,4 +61,31 @@ nav li a{
 }
 .banner-description{
     color: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* responsive media queries */
+
+/* small devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    } 
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    } 
 }
