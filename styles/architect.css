@@ -24,7 +24,10 @@
     color: #131313;
 }
 
-
+/* body */
+body{
+    margin: 0;
+}
 /* header section */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -169,6 +172,15 @@ main{
     width: 165px;
 }
 
+/* footer section */
+footer{
+    border: 2px solid rgba(255, 144, 14, 0.10);
+    max-width: 1440px;
+    max-height: 250px;
+    text-align: center;
+    margin: 100px auto;
+    background: rgba(255, 144, 14, 0.10);
+}
 
 /* responsive media queries */
 
@@ -205,6 +217,13 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+    .feature,
+    .fact,
+    .sponsors,
+    footer
+    {
+        margin: 50px 20px;
+    }
 }
 
 /* tablet or medium devices */
@@ -218,5 +237,15 @@ main{
     .sponsors-img-container
     {
         flex-direction: column;
-    } 
+    }
+    .fact,
+    .sponsors,
+    footer
+    {
+        margin: 50px 20px;
+    }
+    .feature{
+        /* border: 2px solid rebeccapurple */
+        margin:0 50px ;
+    }
 }
