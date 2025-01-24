@@ -248,6 +248,11 @@ footer{
     .teams-img-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
     .feature,
     .fact,
     .sponsors,
