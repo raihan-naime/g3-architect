@@ -121,7 +121,7 @@ main{
     border-radius: 8px;
     background: #ff900e;
     color: #fff;
-    width: 342px;
+    width: 340px;
     padding: 40px;
 }
 .ten-years-badge h2{
@@ -179,10 +179,19 @@ main{
     }
     nav,
     .teams-container,
+    .feature,
     .facts-card-container,
     .sponsors-img-container
     {
         flex-direction: column;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ten-years-badge{
+        position: static;
+        max-width: 300px;
     }
     .teams-img-container{
         grid-template-columns: repeat(1, 1fr);
@@ -203,7 +212,8 @@ main{
     header{
         padding: 20px;
     }
-    nav, 
+    nav,
+    .feature,
     .teams-container,
     .sponsors-img-container
     {
