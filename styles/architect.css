@@ -125,10 +125,13 @@ main{
     background: #ff900e;
     color: #fff;
     width: 340px;
+    height: 150px;
     padding: 40px;
+    text-align: center;
 }
 .ten-years-badge h2{
     font-size: 4rem;
+    margin: 0 auto;
 }
 
 /* facts section */
