@@ -206,7 +206,7 @@ footer{
     }
     .ten-years-badge{
         position: static;
-        max-width: 300px;
+        max-width: 255px;
     }
     .teams-img-container{
         grid-template-columns: repeat(1, 1fr);
@@ -241,14 +241,18 @@ footer{
     {
         flex-direction: column;
     }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature,
     .fact,
     .sponsors,
     footer
     {
         margin: 50px 20px;
-    }
-    .feature{
-        /* border: 2px solid rebeccapurple */
-        margin:0 50px ;
     }
 }
